@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `e-Environment Multisite  architecture`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `e-Environment Multisite architecture`,
+      summary: `Krapinska ulica, Zagreb.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Testni blog.`,
+    siteUrl: `https://www.ericsson.hr/summer-camp`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `e-Environment Multisite architecture`,
     },
   },
   plugins: [
@@ -128,5 +128,12 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Ericsson Nikola Tesla',
+        icon: 'src/images/Ericsson-nikola-tesla.png'
+      }
+    }
   ],
 }

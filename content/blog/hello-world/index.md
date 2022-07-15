@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Testni Pokušaj
+date: "2022-07-15T09:07:03.284Z"
+description: "Ovo je testni pokušaj jednog člana tima"
 ---
 
 This is my first post on my new fake blog! How exciting!
