@@ -319,6 +319,21 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.prijava{
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0 0 2px blue;
+}
+
+.prijava2{
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+.prijava2:hover{
+  background-color: ghostwhite;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
