@@ -134,6 +134,14 @@ module.exports = {
         name: 'Ericsson Nikola Tesla',
         icon: 'src/images/Ericsson-nikola-tesla.png'
       }
+    },
+    {
+      resolve: 'gatsby-source-strapi',
+      options:{
+        apiURL: 'http://localhost:1337',
+        contentTypes: ['team'],
+        queryLimit: 1000
+      }
     }
   ],
 }
